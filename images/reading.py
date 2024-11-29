@@ -5,6 +5,6 @@ import cv2
 
 image = cv2.imread('van_gogh.jpg')
 
-h, w = image.shape[:2]
+h, w, c = image.shape
 
-print(f"Height: {h}, Width: {w}")
+print(f"Height: {h}, Width: {w}, Channels: {c}")

@@ -2,7 +2,7 @@
 import cv2
 
 # read the image
-image = cv2.imread('van_gogh.jpg')
+image = cv2.imread('images/van_gogh.jpg')
 
 # define the region of interest
 roi = image[160:320, 160:320]

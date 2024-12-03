@@ -2,7 +2,7 @@
 
 import cv2
 
-path = 'van_gogh.jpeg'
+path = 'images/van_gogh.jpeg'
 
 # Reading the image in default mode
 image = cv2.imread(path)

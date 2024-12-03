@@ -2,7 +2,7 @@
 import cv2
 
 # Read the image
-image = cv2.imread('van_gogh.jpg')
+image = cv2.imread('images/van_gogh.jpg')
 
 # Calculate the aspect ratio
 ratio = 200.0 / image.shape[1]

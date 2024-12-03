@@ -1,7 +1,7 @@
 import cv2
 
 # Reading the image
-image = cv2.imread('van_gogh.jpg')
+image = cv2.imread('images/van_gogh.jpg')
 
 # Splitting the image into its color channels
 blue, green, red = cv2.split(image)

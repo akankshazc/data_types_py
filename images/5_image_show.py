@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Reading the image
-image = cv2.imread('van_gogh.jpg')
+image = cv2.imread('images/van_gogh.jpg')
 
 plt.imshow(image)
 

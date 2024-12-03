@@ -3,7 +3,7 @@ import cv2
 
 # Reading the image
 
-image = cv2.imread('van_gogh.jpg')
+image = cv2.imread('images/van_gogh.jpg')
 
 h, w, c = image.shape
 

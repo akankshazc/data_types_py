@@ -2,7 +2,7 @@
 import cv2
 
 # Read the image
-image = cv2.imread('van_gogh.jpg')
+image = cv2.imread('images/van_gogh.jpg')
 
 # Resize the image
 resized_image = cv2.resize(image, (200, 200))

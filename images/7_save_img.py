@@ -5,11 +5,11 @@ import cv2
 import os
 
 # Image path
-path = 'van_gogh.jpg'
+path = 'images/van_gogh.jpg'
 
 # Directory you want to save image in
 # we are saving the image in the working directory for simplicity
-directory = '../images'
+directory = '/images/'
 
 # Reading the image
 image = cv2.imread(path)

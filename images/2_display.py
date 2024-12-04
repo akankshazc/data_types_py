@@ -13,7 +13,7 @@ window_name = 'Image'
 # Displaying the image
 cv2.imshow(window_name, image)
 
-cv2.waitKey(2000)
+cv2.waitKey(0)
 
 # Closing all open windows
 cv2.destroyAllWindows()

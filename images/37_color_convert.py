@@ -14,6 +14,12 @@ hsv_img = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 # convert image to LAB
 lab_img = cv2.cvtColor(image, cv2.COLOR_BGR2LAB)
 
+# convert image to YCrCb
+ycrcb_img = cv2.cvtColor(image, cv2.COLOR_BGR2YCrCb)
+
+# edge map of image
+laplacian = cv2.Laplacian(image, cv2.CV_64F)
+
 # display the images
 cv2.imshow('Original Image', image)
 cv2.waitKey(2000)
@@ -25,6 +31,12 @@ cv2.imshow('HSV Image', hsv_img)
 cv2.waitKey(2000)
 
 cv2.imshow('LAB Image', lab_img)
+cv2.waitKey(2000)
+
+cv2.imshow('YCrCb Image', ycrcb_img)
+cv2.waitKey(2000)
+
+cv2.imshow('Edge Map', laplacian)
 cv2.waitKey(2000)
 
 cv2.destroyAllWindows()
